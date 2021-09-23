@@ -2,6 +2,9 @@
 
 namespace Contracts.Dtos
 {
+    /// <summary>
+    /// Represents the response of querying a single sample.
+    /// </summary>
     public class GetSampleResponse
     {
         public Guid Id { get; set; }

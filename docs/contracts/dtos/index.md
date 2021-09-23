@@ -1,4 +1,6 @@
-# This is the **HOMEPAGE**.
-Refer to [Markdown](http://daringfireball.net/projects/markdown/) for how to write markdown files.
-## Quick Start Notes:
-1. Add images to the *images* folder if the file is referencing an image.
+# Documentation generated using `docfx`
+
+A small sample that demonstrates how we could document our contracts (DTOs, event messages etc.) separate to other parts
+of our code.
+
+![Document everything](images/document_everything.gif)

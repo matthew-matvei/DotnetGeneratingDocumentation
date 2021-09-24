@@ -36,3 +36,11 @@ This sample demonstrates generating scoped documentation of .NET projects.
         serves as the web root for the documentation site
 
 For further details, see [Getting Started with DocFX](https://dotnet.github.io/docfx/tutorial/docfx_getting_started.html).
+
+## Customising Templates / Styles
+
+-   Following documentation [here](https://dotnet.github.io/docfx/tutorial/walkthrough/advanced_walkthrough.html),
+    you can customise content and appearance of the built documentation site. This sample uses a `minimalism` theme
+    defined within `docs/contracts/dtos/templates`. Based on the `docfx.json`'s `build.template` property, files are
+    merged between the `default` theme and the custom `minimalism` theme, with the `minimalism` theme taking
+    precedence.

@@ -34,6 +34,9 @@
             }
         ],
         "dest": "_site",
+        "globalMetadata": {
+            "_appTitle": ".NET GenDoc"
+        },
         "globalMetadataFiles": [],
         "fileMetadataFiles": [],
         "template": ["default", "templates/minimalism"],
